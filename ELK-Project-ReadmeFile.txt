@@ -58,8 +58,9 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box | No                  | 6.137.139.57         |
-| Web1 & Web2 | yes              | public               |
-| ELK-VM   | No                  | 10.0.0.8             |
+| Web1     | No                  | 10.0.0.4             |
+| Web2     | No                  | 10.0.0.4             |
+| ELK-VM   | Yes                 | 6.137.143.57         |
 
 ### Elk Configuration
 
